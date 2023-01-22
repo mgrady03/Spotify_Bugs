@@ -14,29 +14,29 @@ the list fully, until the queue is ended or the session is cancelled, ie: loggin
 
 previous Linked list of Queue. 
 
-|        |       |         |
+
 | song A | ----->|  song B |
-|        |       |         |
+
 _____^________________________
 
 becomes this when song A is done 
 
-|        |     
+   
 | song B |
-|        | 
+
 _____^__________
 
 
 Marys implementation 
 
-|        |       |         |
+
 | song A | ----->|  song B |
-|        |       |         |
+
 _____^________________________
 
 
+becomes this when song A is done 
 
-|        |       |         |
 | song A | ----->|  song B |
-|        |       |         |
+
 _______________________^______
